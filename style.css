@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Serif', serif;
+}
+.view {
+    position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+    background-color: rgb(255, 0, 140);
+}
+.container {
+    position: relative;
+    z-index: 1;
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 3rem;
+    top: 4rem;
+    left: 30rem;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px 2px #e2dadade;
+}
+.container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color: #8a7a7a;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container form input {
+    width: 100%;
+    height: 50px;
+    margin: 2px;
+    opacity: 0.5;
+}
+.container form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 40px;
+    position: relative;
+    left: 2.5rem;
+    margin: 5px;
+    border: 1px solid rgb(255, 0, 140);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container form button:hover {
+    color: #fff;
+    background-color: rgb(255, 0, 140);
+    transition: 0.5s;
+}
+.container form p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0.5;
+}
+.reset {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+#facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 18rem;
+    height: 40px;
+    background-color: #2f18f2;
+    color: #fff;
+    position: relative;
+    left: 1rem;
+    border-radius: 5px;
+}
+#google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 18rem;
+    height: 40px;
+    background-color: #de1414;
+    color: #fff;
+    position: relative;
+    left: 1rem;
+    top: 13px;
+    border-radius: 5px;
+}
